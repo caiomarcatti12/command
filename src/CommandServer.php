@@ -2,8 +2,8 @@
 
 namespace CaioMarcatti12\Command;
 
-use CaioMarcatti12\Cli\Interfaces\ArgvParserInterface;
 use CaioMarcatti12\Command\Objects\Routes;
+use CaioMarcatti12\Core\Cli\Interfaces\ArgvParserInterface;
 use CaioMarcatti12\Core\Factory\Annotation\Autowired;
 use CaioMarcatti12\Core\Factory\InstanceFactory;
 use CaioMarcatti12\Core\Factory\Invoke;

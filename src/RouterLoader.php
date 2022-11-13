@@ -2,14 +2,14 @@
 
 namespace CaioMarcatti12\Command;
 
+use CaioMarcatti12\Command\Annotation\Command;
+use CaioMarcatti12\Command\Objects\Route;
 use CaioMarcatti12\Command\Objects\Routes;
 use CaioMarcatti12\Core\ExtractPhpNamespace;
 use CaioMarcatti12\Core\Launcher\Annotation\Launcher;
 use CaioMarcatti12\Core\Launcher\Enum\LauncherPriorityEnum;
 use CaioMarcatti12\Core\Launcher\Interfaces\LauncherInterface;
 use CaioMarcatti12\Core\Validation\Assert;
-use CaioMarcatti12\Command\Objects\Route;
-use CaioMarcatti12\Command\Annotation\Command;
 
 #[Launcher(LauncherPriorityEnum::BEFORE_LOAD_APPLICATION)]
 class RouterLoader implements LauncherInterface
