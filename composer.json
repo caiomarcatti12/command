@@ -1,0 +1,22 @@
+{
+  "name": "caiomarcatti12/command",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caio Marcatti",
+      "email": "caiomarcatti12@gmail.com"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "CaioMarcatti12\\Command\\" :  "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "caiomarcatti12/core": "dev-master",
+    "caiomarcatti12/data": "dev-master"
+  }
+}
